@@ -28,31 +28,76 @@ export default function Index({ posts, globalData }) {
 
 
 
-        <div class="flex flex-col max-w-4xl w-full mx-auto">
-          <p>Hi, I&apos;m Gonzalo. I&apos;m a professional English into Spanish translator specializing in Game Localization. I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes.</p>
-          <ul class="list-disc">
-            <li>
-              <b>Translation Services</b>
-              <p>Translation, Localization, Transcreation, Editing, Proofreading and LQA. I can offer my expertise to effectively help your games reach the Spanish-speaking community and expand into new markets.</p>
-            </li>
-            <li>
-              <b>PC, Consoles & Mobile</b>
-              <p>I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their best practices and learn their specific terminology.</p>
-            </li>
-            <li>
-              <b>Gamer Vision</b>
-              <p>Gamers don&apos;t tolerate mediocrity and know how to appreciate quality. A well-designed game must understand its audience and meet cultural and linguistic expectations. I can provide the much-needed gamer input for a successful localization.</p>
-            </li>
-            <li>
-              <b>Glossary Creation</b>
-              <p>I can create a glossary or termbase from scratch to make the localization of your game increasingly streamlined and error-free.</p>
-            </li>
-            <li>
-              <b>CATs</b>
-              <p>MemoQ, Memsource (Phrase), SmartCat</p>
-            </li>
-          </ul>
-          <h2>+1,000,000 WORDS TRANSLATED</h2>
+        <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
+          <div class="flex flex-col gap-4 mb-4 max-w-lg">
+            <h2 class="text-5xl font-bold">Hi, I&apos;m Gonzalo.</h2>
+            <p class="text-2xl">I&apos;m a professional English into Spanish translator specializing in Game Localization.</p>
+          </div>
+          <blockquote class="text-l italic border-l-2 ml-1 pb-2 pl-5 pr-0 text-gray-900 dark:text-white">
+            <p>"I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes."</p>
+          </blockquote>
+        </div>
+
+        <div class="max-w-7xl w-full mx-auto flex flex-wrap gap-4 p-2">
+          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+            </svg>
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              Translation Services
+            </h5>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              Translation, Localization, Transcreation, Editing, Proofreading and LQA. I can offer my expertise to effectively help your games reach the Spanish-speaking community and expand into new markets.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+            </svg>
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              PC, Consoles & Mobile
+            </h5>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their best practices and learn their specific terminology.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+            </svg>
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              Gamer Vision
+            </h5>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              Gamers don&apos;t tolerate mediocrity and know how to appreciate quality. A well-designed game must understand its audience and meet cultural and linguistic expectations. I can provide the much-needed gamer input for a successful localization.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+            </svg>
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              Glossary Creation
+            </h5>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              I can create a glossary or termbase from scratch to make the localization of your game increasingly streamlined and error-free.
+            </p>
+          </div>
+          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M18 5h-.7c.229-.467.349-.98.351-1.5a3.5 3.5 0 0 0-3.5-3.5c-1.717 0-3.215 1.2-4.331 2.481C8.4.842 6.949 0 5.5 0A3.5 3.5 0 0 0 2 3.5c.003.52.123 1.033.351 1.5H2a2 2 0 0 0-2 2v3a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a2 2 0 0 0-2-2ZM8.058 5H5.5a1.5 1.5 0 0 1 0-3c.9 0 2 .754 3.092 2.122-.219.337-.392.635-.534.878Zm6.1 0h-3.742c.933-1.368 2.371-3 3.739-3a1.5 1.5 0 0 1 0 3h.003ZM11 13H9v7h2v-7Zm-4 0H2v5a2 2 0 0 0 2 2h3v-7Zm6 0v7h3a2 2 0 0 0 2-2v-5h-5Z"/>
+            </svg>
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              CATs
+            </h5>
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+              MemoQ, Memsource (Phrase), SmartCat
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-5xl text-center">+1,000,000 WORDS TRANSLATED</h2>
         </div>
 
 
@@ -61,14 +106,14 @@ export default function Index({ posts, globalData }) {
 
 
 
-        <div class="flex flex-col w-full mx-auto my-8 px-8 py-12 bg-neutral-700">
+        <div class="flex flex-col w-full mx-auto my-8 px-8 py-12 backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-50 bg-opacity-30 hover:bg-opacity-20 dark:hover:bg-opacity-50">
           <div class="md:max-w-7xl md:mx-auto w-full mb-4">
-            <h4 className="text-1xl md:text-1xl font-bold">
+            <h4 className="text-1xl md:text-1xl font-bold p-4">
               Recent projects
             </h4>
           </div>
           <ol
-            class="border-l border-neutral-700 dark:border-neutral-200 md:max-w-7xl md:mx-auto md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
+            class="border-l border-neutral-700 dark:border-neutral-200 md:max-w-7xl md:mx-auto md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t px-4">
             {/* <!--First item--> */}
             <li>
               <div class="flex-start flex items-center pt-2 md:block md:pt-0">
@@ -161,7 +206,7 @@ export default function Index({ posts, globalData }) {
 
 
 
-        <ul className="w-full max-w-2xl w-full mx-auto">
+        {/* <ul className="w-full max-w-2xl w-full mx-auto">
           {posts.map((post) => (
             <li
               key={post.filePath}
@@ -187,7 +232,7 @@ export default function Index({ posts, globalData }) {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
