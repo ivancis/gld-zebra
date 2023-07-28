@@ -34,7 +34,7 @@ export default function Index({ posts, globalData }) {
             <p class="text-2xl">I&apos;m a professional English into Spanish translator specializing in Game Localization.</p>
           </div>
           <blockquote class="text-l italic border-l-2 ml-1 pb-2 pl-5 pr-0 text-gray-900 dark:text-white">
-            <p>"I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes."</p>
+            <p>&apos;I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes.&apos;</p>
           </blockquote>
         </div>
 
