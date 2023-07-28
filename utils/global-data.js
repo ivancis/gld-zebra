@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Game Localisation Dimension';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Made with ♥️ from Argentina';
+    : 'Made with ♥ in Argentina';
 
   return {
     name,
