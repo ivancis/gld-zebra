@@ -18,7 +18,7 @@ export default function Index({ posts, globalData }) {
           <h1>{globalData.blogTitle}</h1>
         </div>
         <div class="flex flex-col">
-          <p>Hi, I'm Gonzalo. I’m a professional English into Spanish translator specializing in Game Localization. I have years of experience in projects for various platforms, and I’ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes.</p>
+          <p>Hi, I&apos;m Gonzalo. I&apos;m a professional English into Spanish translator specializing in Game Localization. I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes.</p>
           <ul>
             <li>
               <b>Translation Services</b>
@@ -26,11 +26,11 @@ export default function Index({ posts, globalData }) {
             </li>
             <li>
               <b>PC, Consoles & Mobile</b>
-              <p>I've translated over 1 million words across all available platforms, which has allowed me to master their best practices and learn their specific terminology.</p>
+              <p>I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their best practices and learn their specific terminology.</p>
             </li>
             <li>
               <b>Gamer Vision</b>
-              <p>Gamers don't tolerate mediocrity and know how to appreciate quality. A well-designed game must understand its audience and meet cultural and linguistic expectations. I can provide the much-needed gamer input for a successful localization.</p>
+              <p>Gamers don&apos;t tolerate mediocrity and know how to appreciate quality. A well-designed game must understand its audience and meet cultural and linguistic expectations. I can provide the much-needed gamer input for a successful localization.</p>
             </li>
             <li>
               <b>Glossary Creation</b>
@@ -44,7 +44,7 @@ export default function Index({ posts, globalData }) {
           <h2>+1,000,000 WORDS TRANSLATED</h2>
           <ul>
             <li>
-              <b>"AA" ARPG (German studio, French publisher)</b>
+              <b>&apos;AA&apos; ARPG (German studio, French publisher)</b>
               <ul>
                 <li>Localization and editing of dialogues and quest descriptions.</li>
                 <li>Collaboration listed in the credits.</li>
