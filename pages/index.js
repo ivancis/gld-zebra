@@ -30,7 +30,8 @@ export default function Index({ posts, globalData }) {
 
         <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
           <div class="flex flex-col gap-4 mb-4 max-w-lg">
-            <h2 class="text-5xl font-bold tracking-tight">Hi, I&apos;m Gonzalo.</h2>
+            <div class="avatar"></div>
+            <h2 class="text-5xl my-2 font-bold tracking-tight">Hi, I&apos;m Gonzalo.</h2>
             <p class="text-2xl">I&apos;m a professional English into Spanish translator specializing in Game Localization.</p>
           </div>
         </div>
@@ -257,6 +258,72 @@ export default function Index({ posts, globalData }) {
             </li>
           ))}
         </ul> */}
+
+        <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
+          <div class="flex flex-col gap-4 w-full mx-auto">
+            <p class="text-2xl text-center">Start your next localization project now. <br></br> PST and CET Time Zones. Based in Argentina.</p>
+            <ul class="contactLinks">
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  Skype
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  Discord
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  Email
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  href="https://www.proz.com/profile/3044101"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  ProZ
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  href="https://www.linkedin.com/in/gonzalo-luis-d%C3%ADaz-09ab70196/"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  class="font-medium hover:underline"
+                  href="cv_gdb.pdf"
+                  target="_blank"
+                >
+                  <span class="logo"></span>
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground

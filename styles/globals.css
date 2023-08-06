@@ -90,6 +90,8 @@ body {
   height: 48px;
   border-radius: 999px;
   background-color: transparent;
+  border: 1px solid white;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5);
 }
 
 .timeline__projects > li:nth-child(1) .avatar__disc {
@@ -106,4 +108,65 @@ body {
 
 .timeline__projects > li:nth-child(4) .avatar__disc {
   background-image: url("../utils/flightSimulator.png");
+}
+
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contactLinks a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgb(0 0 0 / 0.2);
+  border-radius: 4px;
+  padding: 1rem;
+  flex: 1;
+  min-width: 100px;
+}
+
+.contactLinks .logo {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.contactLinks > li:nth-child(1) .logo {
+  background-image: url("../utils/contact_skype.png");
+}
+
+.contactLinks > li:nth-child(2) .logo {
+  background-image: url("../utils/contact_discord.png");
+}
+
+.contactLinks > li:nth-child(3) .logo {
+  background-image: url("../utils/contact_gmail.png");
+}
+
+.contactLinks > li:nth-child(4) .logo {
+  width: 64px;
+  background-image: url("../utils/contact_proZ.png");
+}
+
+.contactLinks > li:nth-child(5) .logo {
+  background-image: url("../utils/contact_linkedin.png");
+}
+
+.contactLinks > li:nth-child(6) .logo {
+  background-image: url("../utils/contact_pdf.png");
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  display: block;
+  background-size: cover;
+  background-image: url("../utils/gld_avatar.png");
 }
