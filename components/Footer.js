@@ -83,7 +83,7 @@ export default function Footer({ copyrightText }) {
       <p className="dark:text-white my-4 text-xs">
         {copyrightText}
       </p>
-      <ThemeSwitcher />
+      {/* <ThemeSwitcher /> */}
     </footer>
   );
 }
