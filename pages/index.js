@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 
+import Image from 'next/image'
+
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -65,7 +67,7 @@ export default function Index({ posts, globalData }) {
 
         <div class="md:max-w-7xl w-full mx-auto flex flex-wrap justify-center gap-4 p-8">
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <img width="48" height="48"src="https://svgmix.com/uploads/haikuos/465831-file-bookmark.svg" alt=""/>
+            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/465831-file-bookmark.svg" alt=""/>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Translation Services
             </h5>
@@ -74,7 +76,7 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <img width="48" height="48"src="https://svgmix.com/uploads/haikuos/d0d416-prefs-joystick.svg" alt=""/>
+            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/d0d416-prefs-joystick.svg" alt=""/>
             {/* https://svgmix.com/item/ymPoQG/prefs-joystick */}
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               PC, Consoles & Mobile
@@ -84,7 +86,7 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <img width="48" height="48"src="https://svgmix.com/uploads/haikuos/6ef523-app-automator.svg" alt=""/>
+            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/6ef523-app-automator.svg" alt=""/>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Gamer Vision
             </h5>
@@ -93,7 +95,7 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <img width="48" height="48"src="https://svgmix.com/uploads/haikuos/fcba80-misc-scroll.svg" alt=""/>
+            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/fcba80-misc-scroll.svg" alt=""/>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Glossary Creation
             </h5>
@@ -102,7 +104,7 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <img width="48" height="48"src="https://svgmix.com/uploads/haikuos/e2cc8d-prefs-keyboard.svg" alt=""/>
+            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/e2cc8d-prefs-keyboard.svg" alt=""/>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               CATs
             </h5>
@@ -266,7 +268,9 @@ export default function Index({ posts, globalData }) {
               <li>
                 <a
                   class="font-medium hover:underline"
+                  href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   Skype
@@ -275,7 +279,9 @@ export default function Index({ posts, globalData }) {
               <li>
                 <a
                   class="font-medium hover:underline"
+                  href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   Discord
@@ -286,6 +292,7 @@ export default function Index({ posts, globalData }) {
                   class="font-medium hover:underline"
                   href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   Email
@@ -296,6 +303,7 @@ export default function Index({ posts, globalData }) {
                   class="font-medium hover:underline"
                   href="https://www.proz.com/profile/3044101"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   ProZ
@@ -306,6 +314,7 @@ export default function Index({ posts, globalData }) {
                   class="font-medium hover:underline"
                   href="https://www.linkedin.com/in/gonzalo-luis-d%C3%ADaz-09ab70196/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   LinkedIn
@@ -316,6 +325,7 @@ export default function Index({ posts, globalData }) {
                   class="font-medium hover:underline"
                   href="cv_gdb.pdf"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span class="logo"></span>
                   Resume
