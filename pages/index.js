@@ -2,6 +2,11 @@ import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
 
 import Image from 'next/image'
+import serviceBookmark from '../pages/svg-service-bookmark.svg'
+import serviceJoystick from '../pages/svg-service-joystick.svg'
+import serviceRobot from '../pages/svg-service-automator.svg'
+import serviceScroll from '../pages/svg-service-scroll.svg'
+import serviceKeyboard from '../pages/svg-service-keyboard.svg'
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -67,7 +72,15 @@ export default function Index({ posts, globalData }) {
 
         <div class="md:max-w-7xl w-full mx-auto flex flex-wrap justify-center gap-4 p-8">
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/465831-file-bookmark.svg" alt=""/>
+          <div class="w-12 h-12">
+              <Image
+                src={serviceBookmark}
+                width={48}
+                height={48}
+                alt="Picture of the author"
+                class="flex mr-auto"
+              />
+            </div>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Translation Services
             </h5>
@@ -76,8 +89,15 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/d0d416-prefs-joystick.svg" alt=""/>
-            {/* https://svgmix.com/item/ymPoQG/prefs-joystick */}
+            <div class="w-12 h-12">
+              <Image
+                src={serviceJoystick}
+                width={48}
+                height={48}
+                alt="Picture of the author"
+                class="flex mr-auto"
+              />
+            </div>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               PC, Consoles & Mobile
             </h5>
@@ -86,7 +106,15 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/6ef523-app-automator.svg" alt=""/>
+            <div class="w-12 h-12">
+              <Image
+                src={serviceRobot}
+                width={48}
+                height={48}
+                alt="Picture of the author"
+                class="flex mr-auto"
+              />
+            </div>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Gamer Vision
             </h5>
@@ -95,7 +123,15 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/fcba80-misc-scroll.svg" alt=""/>
+            <div class="w-12 h-12">
+              <Image
+                src={serviceScroll}
+                width={48}
+                height={48}
+                alt="Picture of the author"
+                class="flex mr-auto"
+              />
+            </div>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Glossary Creation
             </h5>
@@ -104,7 +140,15 @@ export default function Index({ posts, globalData }) {
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
-            <Image width="48" height="48"src="https://svgmix.com/uploads/haikuos/e2cc8d-prefs-keyboard.svg" alt=""/>
+            <div class="w-12 h-12">
+              <Image
+                src={serviceKeyboard}
+                width={48}
+                height={48}
+                alt="Picture of the author"
+                class="flex mr-auto"
+              />
+            </div>
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               CATs
             </h5>
