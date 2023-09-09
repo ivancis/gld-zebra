@@ -36,7 +36,7 @@ export default function Layout({ children }) {
         localStorage.setItem('theme', 'dark');
       } else {
         document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme', 'light');
+        localStorage.setItem('theme', 'dark');
       }
     };
   };
