@@ -65,8 +65,8 @@ export default function Index({ posts, globalData }) {
 
 
         <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
-          <blockquote class="text-l italic border-l-2 ml-1 pb-2 pl-5 pr-0 text-gray-900 dark:text-white">
-            <p>&apos;I have years of experience in projects for various platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate video games as the most complex art form of our time, and as such, they require one of the most comprehensive translation processes.&apos;</p>
+          <blockquote class="text-l border-l-2 ml-1 pb-2 pl-5 pr-0 text-gray-900 dark:text-white">
+            <p>I have years of experience working on projects across multiple platforms, and I've been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate that video games are the most complex art form of our time, and as such require one of the most comprehensive translation processes.</p>
           </blockquote>
         </div>
 
@@ -102,7 +102,7 @@ export default function Index({ posts, globalData }) {
               PC, Consoles & Mobile
             </h5>
             <p class="mt-2 text-sm">
-              I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their best practices and learn their specific terminology.
+              I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their specific terminology.
             </p>
           </div>
           <div class="flex flex-col max-w-sm w-full p-6 rounded-lg backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
@@ -153,7 +153,7 @@ export default function Index({ posts, globalData }) {
               CATs
             </h5>
             <p class="mt-2 text-sm">
-              MemoQ, Memsource (Phrase), SmartCat
+              MemoQ, Memsource (Phrase), SmartCat, and many more.
             </p>
           </div>
         </div>
@@ -162,16 +162,12 @@ export default function Index({ posts, globalData }) {
         <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div class="flex flex-col md:flex-row flex-wrap gap-8 justify-center">
             <div class="text-center">
-              <h6 class="text-3xl font-bold text-deep-purple-accent-400">5 years</h6>
+              <h6 class="text-3xl font-bold text-deep-purple-accent-400">4 years</h6>
               <p class="">In the localisation industry</p>
             </div>
             <div class="text-center">
               <h6 class="text-3xl font-bold text-deep-purple-accent-400">+1,000,000</h6>
               <p class="">Words translated</p>
-            </div>
-            <div class="text-center">
-              <h6 class="text-3xl font-bold text-deep-purple-accent-400">NN</h6>
-              <p class="">Localisation projects</p>
             </div>
           </div>
         </div>
@@ -194,17 +190,17 @@ export default function Index({ posts, globalData }) {
               <div class="flex-start flex items-center gap-2 timeline__item-avatar">
                 <div class="avatar__disc"></div>
                 <div>
-                  <h4 class="text-base font-bold">&apos;AA&apos; ARPG</h4>
-                  <h5 class="text-sm">German studio, French publisher</h5>
+                  <h4 class="text-base font-bold">Atlas Fallen</h4>
+                  <h5 class="text-sm"><a href="https://www.focus-entmt.com/en">Focus Entretainment</a>, <a href="https://www.deck13.com/">Deck13</a></h5>
                 </div>
               </div>
               <div class="mt-2">
                 <code class="text-xs text-neutral-200">01.07.2021</code>
                 <div class="mt-2 text-neutral-200 dark:text-neutral-200">
                   <ul class="list-disc pl-3">
-                    <li class="text-sm">Localization and editing of dialogues and quest descriptions</li>
-                    <li class="text-sm">Collaboration listed in the credits</li>
-                    <li class="text-sm">PS5, XBOX X|S and PC (to be released in August 2023)</li>
+                    <li class="text-sm">Localization and editing of dialogues and quest descriptions.</li>
+                    <li class="text-sm">Collaboration listed in the credits.</li>
+                    <li class="text-sm">PS5, XBOX X|S and PC.</li>
                   </ul>
                   </div>
               </div>
@@ -307,12 +303,12 @@ export default function Index({ posts, globalData }) {
 
         <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
           <div class="flex flex-col gap-4 w-full mx-auto">
-            <p class="text-2xl text-center">Start your next localization project now. <br></br> PST and CET Time Zones. Based in Argentina.</p>
+            <p class="text-2xl text-center">Start your next localization project now. <br></br>(PST and CET Time Zones)</p>
             <ul class="contactLinks">
               <li>
                 <a
                   class="font-medium hover:underline"
-                  href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
+                  href="https://join.skype.com/invite/veHwPHkOQ9Rg"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -323,7 +319,7 @@ export default function Index({ posts, globalData }) {
               <li>
                 <a
                   class="font-medium hover:underline"
-                  href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
+                  href="http://discordapp.com/users/695669465060212789"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -372,7 +368,7 @@ export default function Index({ posts, globalData }) {
                   rel="noreferrer"
                 >
                   <span class="logo"></span>
-                  Resume
+                  Resume/CV
                 </a>
               </li>
             </ul>

@@ -21,7 +21,7 @@ export default function Layout({ children }) {
 
     if (darkMode) {
       document.documentElement.classList.add('dark');
-    } else if (lightMode) {
+    } else if (darkMode) {
       document.documentElement.classList.remove('dark');
     }
     return;
