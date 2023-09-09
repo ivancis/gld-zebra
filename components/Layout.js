@@ -27,27 +27,27 @@ export default function Layout({ children }) {
     return;
   };
 
-  const handleSystemThemeChange = () => {
-    var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  // const handleSystemThemeChange = () => {
+  //   var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-    darkQuery.onchange = (e) => {
-      if (e.matches) {
-        document.documentElement.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('theme', 'dark');
-      }
-    };
-  };
+  //   darkQuery.onchange = (e) => {
+  //     if (e.matches) {
+  //       document.documentElement.classList.add('dark');
+  //       localStorage.setItem('theme', 'dark');
+  //     } else {
+  //       document.documentElement.classList.remove('dark');
+  //       localStorage.setItem('theme', 'dark');
+  //     }
+  //   };
+  // };
 
   useEffect(() => {
     setAppTheme();
   }, []);
 
-  useEffect(() => {
-    handleSystemThemeChange();
-  }, []);
+  // useEffect(() => {
+  //   handleSystemThemeChange();
+  // }, []);
 
   return (
     <div className="relative pb-24 overflow-hidden min-h-screen">
