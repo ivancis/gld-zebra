@@ -208,7 +208,7 @@ export default function Index({ posts, globalData }) {
                 </div>
               </div>
               <div class="mt-2 pl-3">
-                <div class="mt-2 text-neutral-200 dark:text-neutral-200">
+                <div class="mt-2">
                   <ul class="list-disc list-outside">
                     <li class="text-xs mb-2">Localization and editing of dialogues and quest descriptions.</li>
                     <li class="text-xs mb-2">Collaboration listed in the credits.</li>
@@ -229,7 +229,7 @@ export default function Index({ posts, globalData }) {
                 </div>
               </div>
               <div class="mt-2 pl-3">
-                <div class="mt-2 text-neutral-200 dark:text-neutral-200">
+                <div class="mt-2">
                   <ul class="list-disc list-outside">
                     <li class="text-xs mb-2">Localization of dialogues, item descriptions, and legal disclaimers</li>
                     <li class="text-xs mb-2">Android and iOS</li>
@@ -249,7 +249,7 @@ export default function Index({ posts, globalData }) {
                 </div>
               </div>
               <div class="mt-2 pl-3">
-                <div class="mt-2 text-neutral-200 dark:text-neutral-200">
+                <div class="mt-2">
                   <ul class="list-disc list-outside">
                     <li class="text-xs mb-2">Localization of dialogues, character bios, and item descriptions</li>
                     <li class="text-xs mb-2">Android and iOS</li>
@@ -269,7 +269,7 @@ export default function Index({ posts, globalData }) {
                 </div>
               </div>
               <div class="mt-2 pl-3">
-                <div class="mt-2 text-neutral-200 dark:text-neutral-200">
+                <div class="mt-2">
                   <ul class="list-disc list-outside">
                     <li class="text-xs mb-2">Localization of item descriptions and tutorials</li>
                     <li class="text-xs mb-2">PS5, XBOX X|S and PC</li>
