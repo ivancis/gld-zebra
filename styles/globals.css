@@ -39,6 +39,7 @@ body {
   width: 100%;
   opacity: .3;
   right: calc(-25% + 1.5rem);
+  display: none;
 }
 
 .slideshow-columns > div {
@@ -81,15 +82,18 @@ body {
 .timeline__item-avatar {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 0.75rem;
+  gap: 1rem;
   margin: -24px 0 0 -16px;
 }
 
 .avatar__disc {
+  position: relative;
+  top: -1rem;
   width: 48px;
   height: 48px;
   border-radius: 999px;
   background-color: transparent;
+  background-position: top center;
   border: 1px solid white;
   box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5);
 }
@@ -115,7 +119,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .contactLinks a {
@@ -125,7 +129,7 @@ body {
   gap: 0.5rem;
   background-color: rgb(0 0 0 / 0.2);
   border-radius: 4px;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   flex: 1;
   min-width: 100px;
 }
@@ -169,4 +173,8 @@ body {
   display: block;
   background-size: cover;
   background-image: url("../utils/gld_avatar.png");
+}
+
+.customDetails summary {
+  display: flex;
 }

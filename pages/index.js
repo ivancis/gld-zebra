@@ -35,7 +35,7 @@ export default function Index({ posts, globalData }) {
 
 
 
-        <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
+        <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8">
           <div class="flex flex-col gap-4 mb-4 max-w-lg">
             <div class="avatar"></div>
             <h2 class="text-5xl my-2 font-bold tracking-tight">Hi, I&apos;m Gonzalo.</h2>
@@ -84,7 +84,7 @@ export default function Index({ posts, globalData }) {
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Translation Services
             </h5>
-            <p class="mt-2 text-sm">
+            <p class="mt-1 text-sm">
               Translation, Localization, Transcreation, Editing, Proofreading and LQA. I can offer my expertise to effectively help your games reach the Spanish-speaking community and expand into new markets.
             </p>
           </div>
@@ -101,7 +101,7 @@ export default function Index({ posts, globalData }) {
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               PC, Consoles & Mobile
             </h5>
-            <p class="mt-2 text-sm">
+            <p class="mt-1 text-sm">
               I&apos;ve translated over 1 million words across all available platforms, which has allowed me to master their specific terminology.
             </p>
           </div>
@@ -118,7 +118,7 @@ export default function Index({ posts, globalData }) {
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Gamer Vision
             </h5>
-            <p class="mt-2 text-sm">
+            <p class="mt-1 text-sm">
               Gamers don&apos;t tolerate mediocrity and know how to appreciate quality. A well-designed game must understand its audience and meet cultural and linguistic expectations. I can provide the much-needed gamer input for a successful localization.
             </p>
           </div>
@@ -135,7 +135,7 @@ export default function Index({ posts, globalData }) {
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Glossary Creation
             </h5>
-            <p class="mt-2 text-sm">
+            <p class="mt-1 text-sm">
               I can create a glossary or termbase from scratch to make the localization of your game increasingly streamlined and error-free.
             </p>
           </div>
@@ -152,14 +152,14 @@ export default function Index({ posts, globalData }) {
             <h5 class="mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               CATs
             </h5>
-            <p class="mt-2 text-sm">
+            <p class="mt-1 text-sm">
               MemoQ, Memsource (Phrase), SmartCat, and many more.
             </p>
           </div>
         </div>
 
 
-        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
           <div class="flex flex-col md:flex-row flex-wrap gap-8 justify-center">
             <div class="text-center">
               <h6 class="text-3xl font-bold text-deep-purple-accent-400">4 years</h6>
@@ -179,9 +179,17 @@ export default function Index({ posts, globalData }) {
 
         <div class="flex flex-col w-full mx-auto my-8 px-8 py-12 backdrop-blur-xl bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-30">
           <div class="md:max-w-7xl md:mx-auto w-full mb-4">
-            <h4 className="text-1xl md:text-1xl font-bold p-4">
-              Recent projects
-            </h4>
+            <details className="customDetails p-4">
+              <summary>
+                <h4 className="text-1xl font-bold mb-2 hover:underline">
+                  Project highlights
+                </h4>
+              </summary>
+              <blockquote class="text-l border-l-2 ml-1 pl-4 mb-3 md:max-w-3xl">
+                <p className="text-sm mb-2">A significant portion of my work is subject to strict Non-Disclosure Agreements (NDAs). As a result, I am unable to showcase these projects publicly on this website.</p>
+                <p className="text-sm">If you have any specific project inquiries or would like to discuss my work in more detail, please don&apos;t hesitate to get in touch with me. I would be delighted to provide you with further information and insights.</p>
+              </blockquote>
+            </details>
           </div>
           <ol
             class="md:max-w-7xl md:mx-auto md:flex gap-4 flex-wrap md:justify-center px-4 timeline__projects">
@@ -190,17 +198,21 @@ export default function Index({ posts, globalData }) {
               <div class="flex-start flex items-center gap-2 timeline__item-avatar">
                 <div class="avatar__disc"></div>
                 <div>
-                  <h4 class="text-base font-bold">Atlas Fallen</h4>
-                  <h5 class="text-sm"><a href="https://www.focus-entmt.com/en">Focus Entretainment</a>, <a href="https://www.deck13.com/">Deck13</a></h5>
+                  <h4 class="text-lg leading-none font-bold mb-1">
+                    <a href="https://www.youtube.com/watch?v=_hFePdmcci0" class="hover:underline" rel="noreferrer" target='_blank'>
+                      Atlas Fallen
+                    </a>
+                  </h4>
+                  <h5 class="text-sm"><a target='_blank' rel="noreferrer" class="hover:underline" href="https://www.focus-entmt.com/en">Focus Entretainment</a>, <a rel="noreferrer" target='_blank' class="hover:underline" href="https://www.deck13.com/">Deck13</a></h5>
+                  <code class="text-xs text-neutral-200">August 2023</code>
                 </div>
               </div>
-              <div class="mt-2">
-                <code class="text-xs text-neutral-200">01.07.2021</code>
+              <div class="mt-2 pl-3">
                 <div class="mt-2 text-neutral-200 dark:text-neutral-200">
-                  <ul class="list-disc pl-3">
-                    <li class="text-sm">Localization and editing of dialogues and quest descriptions.</li>
-                    <li class="text-sm">Collaboration listed in the credits.</li>
-                    <li class="text-sm">PS5, XBOX X|S and PC.</li>
+                  <ul class="list-disc list-outside">
+                    <li class="text-xs mb-2">Localization and editing of dialogues and quest descriptions.</li>
+                    <li class="text-xs mb-2">Collaboration listed in the credits.</li>
+                    <li class="text-xs mb-2">PS5, XBOX X|S and PC.</li>
                   </ul>
                   </div>
               </div>
@@ -211,16 +223,16 @@ export default function Index({ posts, globalData }) {
               <div class="flex-start flex items-center gap-2 timeline__item-avatar">
                 <div class="avatar__disc"></div>
                 <div>
-                  <h4 class="text-base font-bold">Massive Battle Royale game</h4>
-                  <h5 class="text-sm">South Korean publisher</h5>
+                  <h4 class="text-lg leading-none font-bold mb-1">Massive Battle Royale</h4>
+                  <h5 class="text-sm">South Korean publisher.</h5>
+                  <code class="text-xs text-neutral-200">September 2022</code>
                 </div>
               </div>
-              <div class="mt-2">
-                <code class="text-xs text-neutral-200">13.09.2021</code>
+              <div class="mt-2 pl-3">
                 <div class="mt-2 text-neutral-200 dark:text-neutral-200">
-                  <ul class="list-disc pl-3">
-                    <li class="text-sm">Localization of dialogues, item descriptions, and legal disclaimers</li>
-                    <li class="text-sm">Android and iOS</li>
+                  <ul class="list-disc list-outside">
+                    <li class="text-xs mb-2">Localization of dialogues, item descriptions, and legal disclaimers</li>
+                    <li class="text-xs mb-2">Android and iOS</li>
                   </ul>
                   </div>
               </div>
@@ -231,16 +243,16 @@ export default function Index({ posts, globalData }) {
               <div class="flex-start flex items-center gap-2 timeline__item-avatar">
                 <div class="avatar__disc"></div>
                 <div>
-                  <h4 class="text-base font-bold">Highly popular MOBA</h4>
-                  <h5 class="text-sm">World-leading Chinese publisher</h5>
+                  <h4 class="text-lg leading-none font-bold mb-1">Highly popular MOBA</h4>
+                  <h5 class="text-sm">World-leading Chinese publisher.</h5>
+                  <code class="text-xs text-neutral-200">13.09.2021</code>
                 </div>
               </div>
-              <div class="mt-2">
-                <code class="text-xs text-neutral-200">13.09.2021</code>
+              <div class="mt-2 pl-3">
                 <div class="mt-2 text-neutral-200 dark:text-neutral-200">
-                  <ul class="list-disc pl-3">
-                    <li class="text-sm">Localization of dialogues, character bios, and item descriptions</li>
-                    <li class="text-sm">Android and iOS</li>
+                  <ul class="list-disc list-outside">
+                    <li class="text-xs mb-2">Localization of dialogues, character bios, and item descriptions</li>
+                    <li class="text-xs mb-2">Android and iOS</li>
                   </ul>
                 </div>
               </div>
@@ -251,16 +263,16 @@ export default function Index({ posts, globalData }) {
               <div class="flex-start flex items-center gap-2 timeline__item-avatar">
                 <div class="avatar__disc"></div>
                 <div>
-                  <h4 class="text-base font-bold">Space Flight Simulation</h4>
-                  <h5 class="text-sm">American publisher</h5>
+                  <h4 class="text-lg leading-none font-bold mb-1">Space Flight Simulation</h4>
+                  <h5 class="text-sm">American publisher.</h5>
+                  <code class="text-xs text-neutral-200">25.11.2021</code>
                 </div>
               </div>
-              <div class="mt-2">
-                <code class="text-xs text-neutral-200">25.11.2021</code>
+              <div class="mt-2 pl-3">
                 <div class="mt-2 text-neutral-200 dark:text-neutral-200">
-                  <ul class="list-disc pl-3">
-                    <li class="text-sm">Localization of item descriptions and tutorials</li>
-                    <li class="text-sm">PS5, XBOX X|S and PC</li>
+                  <ul class="list-disc list-outside">
+                    <li class="text-xs mb-2">Localization of item descriptions and tutorials</li>
+                    <li class="text-xs mb-2">PS5, XBOX X|S and PC</li>
                   </ul>
                 </div>
               </div>
@@ -302,12 +314,12 @@ export default function Index({ posts, globalData }) {
         </ul> */}
 
         <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
-          <div class="flex flex-col gap-4 w-full mx-auto">
-            <p class="text-2xl text-center">Start your next localization project now. <br></br>(PST and CET Time Zones)</p>
+          <div class="flex flex-col gap-8 w-full mx-auto">
+            <p class="text-xl text-center">Start your next localization project now. <br></br>(PST and CET Time Zones)</p>
             <ul class="contactLinks">
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="https://join.skype.com/invite/veHwPHkOQ9Rg"
                   target="_blank"
                   rel="noreferrer"
@@ -318,7 +330,7 @@ export default function Index({ posts, globalData }) {
               </li>
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="http://discordapp.com/users/695669465060212789"
                   target="_blank"
                   rel="noreferrer"
@@ -329,7 +341,7 @@ export default function Index({ posts, globalData }) {
               </li>
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="mailto:diazgonzaloluis@gmail.com?Subject=Hello%20Gonzalo"
                   target="_blank"
                   rel="noreferrer"
@@ -340,7 +352,7 @@ export default function Index({ posts, globalData }) {
               </li>
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="https://www.proz.com/profile/3044101"
                   target="_blank"
                   rel="noreferrer"
@@ -351,7 +363,7 @@ export default function Index({ posts, globalData }) {
               </li>
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="https://www.linkedin.com/in/gonzalo-luis-d%C3%ADaz-09ab70196/"
                   target="_blank"
                   rel="noreferrer"
@@ -362,7 +374,7 @@ export default function Index({ posts, globalData }) {
               </li>
               <li>
                 <a
-                  class="font-medium hover:underline"
+                  class="text-sm font-medium hover:underline"
                   href="cv_gdb.pdf"
                   target="_blank"
                   rel="noreferrer"
