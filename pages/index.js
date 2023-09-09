@@ -66,7 +66,7 @@ export default function Index({ posts, globalData }) {
 
         <div class="flex flex-col gap-4 max-w-4xl w-full mx-auto p-8 mb-8">
           <blockquote class="text-l border-l-2 ml-1 pb-2 pl-5 pr-0 text-gray-900 dark:text-white">
-            <p>I have years of experience working on projects across multiple platforms, and I've been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate that video games are the most complex art form of our time, and as such require one of the most comprehensive translation processes.</p>
+            <p>I have years of experience working on projects across multiple platforms, and I&apos;ve been a gamer since I was able to pick up a controller. My professional journey has led me to appreciate that video games are the most complex art form of our time, and as such require one of the most comprehensive translation processes.</p>
           </blockquote>
         </div>
 
